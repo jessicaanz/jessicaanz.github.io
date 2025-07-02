@@ -2361,42 +2361,42 @@ input, select, textarea {
 
 		}
 
-/* Table */
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
 
+/* Table */ 
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
 		border-collapse: collapse;
-		background-color: transparent; /* Transparent background */
-		border: none; /* No outer border */
+		background-color: transparent;
+		border: none;
 	}
 
 	table th,
 	table td {
 		padding: 0.75em 0.75em;
-		border-left: 1px solid #787878; /* Vertical dividers */
-		font-weight: bold;
-		color: inherit; /* Match body text color */
-		font-size: inherit; /* Match body font size */
+		border-left: 1px solid #b9b9b9;
+		color: inherit;
+		font-size: inherit;
 		text-align: left;
 	}
 
 	table th:first-child,
 	table td:first-child {
-		border-left: none; /* No left divider on first column */
+		border-left: none;
 	}
 
 	table thead th {
-		border-bottom: none; /* No extra line under header */
+		font-weight: bold; /* Only header row gets bold */
+		border-bottom: none;
 	}
 
 	table tbody tr {
-		border: none; /* No row borders */
-		background-color: transparent; /* No alternating row colors */
+		border: none;
+		background-color: transparent;
 	}
 
 	table tfoot {
