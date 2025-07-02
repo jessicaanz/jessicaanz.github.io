@@ -136,7 +136,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2379,7 +2379,7 @@ input, select, textarea {
 	table td {
 		padding: 0.75em 0.75em;
 		border-left: 1px solid #787878; /* Vertical dividers */
-		font-weight: normal; /* No bold headers */
+		font-weight: bold;
 		color: inherit; /* Match body text color */
 		font-size: inherit; /* Match body font size */
 		text-align: left;
