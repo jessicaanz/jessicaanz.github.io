@@ -2362,7 +2362,6 @@ input, select, textarea {
 		}
 
 /* Table */
-
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -2373,37 +2372,36 @@ input, select, textarea {
 		width: 100%;
 		border-collapse: collapse;
 		background-color: transparent; /* Transparent background */
-		border: none; /* No outer table border */
+		border: none; /* No outer border */
 	}
 
 	table th,
 	table td {
 		padding: 0.75em 0.75em;
 		border-left: 1px solid #787878; /* Vertical dividers */
+		font-weight: normal; /* No bold headers */
+		color: inherit; /* Match body text color */
+		font-size: inherit; /* Match body font size */
+		text-align: left;
 	}
 
 	table th:first-child,
 	table td:first-child {
-		border-left: none; /* No divider before first column */
+		border-left: none; /* No left divider on first column */
 	}
 
 	table thead th {
-		color: #787878;
-		font-size: 0.9em;
-		font-weight: bold; /* Make headers bold */
-		text-align: left;
-		border-bottom: 2px solid #787878; /* Header row divider */
+		border-bottom: none; /* No extra line under header */
 	}
 
 	table tbody tr {
-		border: none; /* Remove horizontal row borders */
-		background-color: transparent; /* No row shading */
+		border: none; /* No row borders */
+		background-color: transparent; /* No alternating row colors */
 	}
 
 	table tfoot {
 		border-top: none;
 	}
-
 
 /* Button */
 
@@ -2421,7 +2419,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #787878;
+		border: solid 2px #787878;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2666,7 +2664,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #787878;
+			border-top: solid 1px #787878;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
