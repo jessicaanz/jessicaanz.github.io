@@ -3225,7 +3225,7 @@ input, select, textarea {
 /* Navigation bar */
 
 	.section-nav {
-		margin: 1em 0 1em 0;
+		margin: 0.25em 0 0.25em 0;
 		text-align: center;
 	}
 
@@ -3242,12 +3242,12 @@ input, select, textarea {
 	.section-nav ul li a {
 		text-decoration: none;
 		font-weight: bold;
-		color: #333;
+		color: #787878;
 		border-bottom: 2px solid transparent;
 		transition: border-color 0.3s, color 0.3s;
 	}
 
 	.section-nav ul li a:hover {
-		color: #007bff;
-		border-color: #007bff;
+		color: #49bf9d;
+		border-color: #49bf9d;
 	}
