@@ -3224,33 +3224,34 @@ input, select, textarea {
 
 /* Navigation bar */
 
-	#nav {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
-		z-index: 1000;
-		padding: 0.5em 2em;
-		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	.section-nav {
+		margin: 2em 0 2em 0;
+		text-align: center;
 	}
 
-	#nav ul {
-		margin: 0;
-		padding: 0;
+	.section-nav ul {
 		list-style: none;
+		padding: 0;
+		margin: 0;
 		display: flex;
 		justify-content: center;
 		gap: 2em;
+		flex-wrap: wrap;
 	}
 
-	#nav ul li a {
+	.section-nav ul li a {
 		text-decoration: none;
-		color: #333;
 		font-weight: bold;
-		transition: color 0.3s ease;
+		color: #333;
+		border-bottom: 2px solid transparent;
+		transition: border-color 0.3s, color 0.3s;
 	}
 
-	#nav ul li a:hover {
+	.section-nav ul li a:hover {
 		color: #007bff;
+		border-color: #007bff;
 	}
 
+	html {
+		scroll-padding-top: 80px; /* Adjust based on spacing above sections */
+	}
