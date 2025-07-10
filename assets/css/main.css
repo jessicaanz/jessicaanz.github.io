@@ -3252,6 +3252,6 @@ input, select, textarea {
 		border-color: #007bff;
 	}
 
-	html {
-		scroll-padding-top: 80px; /* Adjust based on spacing above sections */
-	}
+	/* html {
+		scroll-padding-top: 80px;
+	} */
