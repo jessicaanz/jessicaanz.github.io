@@ -3225,7 +3225,7 @@ input, select, textarea {
 /* Navigation bar */
 
 	.section-nav {
-		margin: 2em 0 2em 0;
+		margin: 1em 0 1em 0;
 		text-align: center;
 	}
 
@@ -3251,7 +3251,3 @@ input, select, textarea {
 		color: #007bff;
 		border-color: #007bff;
 	}
-
-	/* html {
-		scroll-padding-top: 80px;
-	} */
