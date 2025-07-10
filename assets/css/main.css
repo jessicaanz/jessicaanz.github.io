@@ -3224,34 +3224,30 @@ input, select, textarea {
 
 /* Navigation bar */
 
+	#main > .section-nav {
+		margin: 0;
+		padding: 0;
+	}
+	
 	.section-nav {
-		margin: 0;               /* Remove vertical spacing */
-		padding: 0;              /* Remove internal padding */
+		margin: 0;
 		text-align: center;
-		line-height: 1;          /* Tight line spacing */
 	}
 
 	.section-nav ul {
 		list-style: none;
-		margin: 0 !important;    /* Force zero margins */
-		padding: 0 !important;   /* Force zero padding */
+		padding: 0;
+		margin: 0;
 		display: flex;
 		justify-content: center;
-		gap: 2em;                /* Keep original spacing between links */
+		gap: 2em;
 		flex-wrap: wrap;
-		line-height: 1;          /* Avoid extra height from line spacing */
-	}
-
-	.section-nav ul li {
-		margin: 0;
-		padding: 0;
-		line-height: 1;
 	}
 
 	.section-nav ul li a {
 		text-decoration: none;
 		font-weight: bold;
-		color: #8d3939;
+		color: #787878;
 		border-bottom: 2px solid transparent;
 		transition: border-color 0.3s, color 0.3s;
 	}
