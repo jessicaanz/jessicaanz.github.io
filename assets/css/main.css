@@ -3195,28 +3195,62 @@ input, select, textarea {
 
 	}
 
-/* ADDED CONTENT */
-.skills-category {
-  margin-bottom: 2em;
-}
+/* Skills */
 
-.skills-category h3 {
-  margin-bottom: 0.5em;
-  font-weight: 600;
-  font-size: 0.95em;
-}
+	.skills-category {
+	margin-bottom: 2em;
+	}
 
-.skill-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-}
+	.skills-category h3 {
+	margin-bottom: 0.5em;
+	font-weight: 600;
+	font-size: 0.95em;
+	}
 
-.skill-list li {
-  background-color: #c9e3e6;
-  padding: 0.4em 0.75em;
-  border-radius: 20px;
-  font-size: 0.95em;
-}
+	.skill-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	}
+
+	.skill-list li {
+	background-color: #c9e3e6;
+	padding: 0.4em 0.75em;
+	border-radius: 20px;
+	font-size: 0.95em;
+	}
+
+/* Navigation bar */
+
+	#nav {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		z-index: 1000;
+		padding: 0.5em 2em;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	}
+
+	#nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		gap: 2em;
+	}
+
+	#nav ul li a {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+		transition: color 0.3s ease;
+	}
+
+	#nav ul li a:hover {
+		color: #007bff;
+	}
+
