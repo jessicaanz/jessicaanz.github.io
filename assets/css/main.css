@@ -3225,19 +3225,23 @@ input, select, textarea {
 /* Navigation bar */
 
 	#main > nav.section-nav {
-		margin-top: -6em; /* Or -8em to cancel exactly */
+		margin-top: -6em;
 		margin-bottom: 0;
 	}
 
 	#main > section:first-of-type {
 		margin-top: 0;
-		padding-top: 1em; /* or adjust to your liking */
+		padding-top: 1em;
 	}
 
 	.section-nav {
+		position: sticky;
+		top: 0;
+		z-index: 1000;
+		background-color: #c9e3e6;
+		padding: 0.5em 0;
 		margin: 0;
 		text-align: center;
-		background-color: #c9e3e6;
 	}
 
 	.section-nav ul {
@@ -3261,4 +3265,8 @@ input, select, textarea {
 	.section-nav ul li a:hover {
 		color: #49bf9d;
 		border-color: #49bf9d;
+	}
+
+	html {
+		scroll-padding-top: 3em; /* Match your nav bar height */
 	}
