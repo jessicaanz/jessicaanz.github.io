@@ -3226,13 +3226,14 @@ input, select, textarea {
 
 	#main > nav.section-nav {
 		margin-top: -6em; /* Or -8em to cancel exactly */
-		margin-bottom: 2em;
+		margin-bottom: 0;
 	}
 
 	
 	.section-nav {
 		margin: 0;
 		text-align: center;
+		background-color: #c9e3e6;
 	}
 
 	.section-nav ul {
