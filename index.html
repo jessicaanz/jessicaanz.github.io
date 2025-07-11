@@ -104,86 +104,94 @@
 					<h3>The Butterfly Blade</h3>
 					<p>Fabricated a new spinning and locking blade mechanism inspired by a traditional butterfly blade.</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Developed through two full design and fabrication cycles, improving fit, print quality, and aesthetics</p></li>
+						<li><p>Implemented FDM print optimizations using SolidWorks topology tools, modular CAD design, and rapid prototyping</p></li>
+						<li><p>Final design features a working blade mechanism, modular snack (Slim Jim) deployment module, and artistic full-depth dragon cutout</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/catwalk.jpg" class="image fit thumb"><img src="images/projects/catwalk.jpg" alt="" /></a>
 					<h3>Walking Quadruped RL Training</h3>
-					<p>Overview</p>
+					<p>Trained a custom quadruped robot to walk using reinforcement learning in MuJoCo</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Created a URDF and MuJoCo-compatible XML model from a SolidWorks CAD of a 4-legged cat robot</p></li>
+						<li><p>Implemented a custom Gym environment and used PPO via StableBaselines3 for training</p></li>
+						<li><p>Achieved a successful policy that produced a realistic single step, validating RL-based gait learning</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/micromirror.jpg" class="image fit thumb"><img src="images/projects/micromirror.jpg" alt="" /></a>
 					<h3>Flexure Based Micro-Mirror</h3>
-					<p>Overview</p>
+					<p>Designed and analyzed a MEMS-scale flexure-based micro-mirror with 1 translational degree of freedom</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Used FACT synthesis to design a parallel wire flexure topology that minimizes parasitic error and operates at resonant frequency</p></li>
+						<li><p>Optimized natural frequencies via MATLAB simulation and validated translational motion through FEA of the CAD model</p></li>
+						<li><p>Proposed a multi-layer SOI-based fabrication process using photolithography, DRIE, and gold coating for optical reflectivity</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/scara_trajectory.jpg" class="image fit thumb"><img src="images/projects/scara_trajectory.jpg" alt="" /></a>
 					<h3>Scara Robot Trajectory Generation</h3>
-					<p>Overview</p>
+					<p>Simulated and evaluated joint and task space trajectories for a SCARA robot to optimize pick-and-place performance</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Generated and analyzed joint angles, velocities, and accelerations for both trajectory methods while ensuring all motion stayed within SCARA limits</p></li>
+						<li><p>Verified end-effector position/orientation and ensured collision avoidance using elevated via-points and strategic component placement</p></li>
+						<li><p>Found joint space trajectory to be significantly more efficient (8s vs. 150s) due to smoother motion and lower peak accelerations</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/parallel_EE.jpg" class="image fit thumb"><img src="images/projects/parallel_EE.jpg" alt="" /></a>
 					<h3>Contact Modeling Parallel End-Effector</h3>
-					<p>Overview</p>
+					<p>Developed a 2D physics-based simulation of a soft robotic gripper grasping fruit using elastic beams and contact modeling</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Implemented the Modified Mass Method to simulate accurate contact dynamics between flexible gripper prongs and a rigid fruit model</p></li>
+						<li><p>Modeled elastic beams with tension, compression, and torsion springs to represent soft prongs; tested on flat and curved (circular) fruit surfaces</p></li>
+						<li><p>Analyzed reaction forces and identified critical contact nodes to guide mechanical design decisions and minimize fruit damage</p></li>
+						<li><p>Explored effects of fruit radius and gripper material stiffness (Young’s modulus) on force profiles and deformation behavior</p></li>
+						<li><p>Designed the simulation framework to support customization for gripper geometry, material properties, object shapes, and boundary conditions</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/maglev.jpg" class="image fit thumb"><img src="images/projects/maglev.jpg" alt="" /></a>
 					<h3>Magnetic Levitation Device</h3>
-					<p>Overview</p>
+					<p>Designed and implemented a PID-controlled magnetic levitation system to stabilize and levitate objects using electromagnetic force</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Derived a full nonlinear model of the MagLev plant from first principles, including photo-sensor behavior, electromagnetic force, and dynamic equations</p></li>
+						<li><p>Linearized the system and developed a second-order transfer function using Laplace transforms for controller design and stability analysis</p></li>
+						<li><p>Utilized MATLAB for system simulation and PID controller tuning; applied Ziegler-Nichols method when initial values were too aggressive</p></li>
+						<li><p>Tuned PID parameters to achieve low overshoot, fast settling time, and robust levitation under varying inputs (step, sine, square, random)</p></li>
+						<li><p>Demonstrated controller robustness by levitating multiple object types, including non-spherical loads such as a paper hat and plastic cup</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/candy_dispenser.jpg" class="image fit thumb"><img src="images/projects/candy_dispenser.jpg" alt="" /></a>
 					<h3>Halloween Candy Dispenser</h3>
-					<p>Overview</p>
+					<p>Designed and built an automated Halloween candy dispenser to securely and safely serve candy to trick-or-treaters</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Engineered a weatherproof plywood enclosure with laser-cut panels and 3D printed internal components for easy assembly and disassembly</p></li>
+						<li><p>Integrated stepper motor, Arduino Nano, speaker, LEDs, and push-button input to automate candy dispensing and enhance user interaction</p></li>
+						<li><p>Designed a motor-driven flap and funnel system to dispense a fixed candy quantity per trigger, preventing excess collection</p></li>
+						<li><p>Created a clown-themed exterior with functional visual (LED eyes), audio (clown cackle), and tactile (nose button) elements for intuitive use</p></li>
+						<li><p>Conducted full mechanical and electronics prototyping under a \$100 budget, achieving unit cost of \$53.66 with potential 46% profit margin</p></li>
 					</ul>
 				</article>
 
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/projects/camera_calibration.jpg" class="image fit thumb"><img src="images/projects/camera_calibration.jpg" alt="" /></a>
 					<h3>Webcam Calibration</h3>
-					<p>Overview</p>
+					<p>Calibrated a laptop camera using OpenCV to improve image accuracy and remove lens distortion</p>
 					<ul>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
-						<li><p>Details</p></li>
+						<li><p>Captured 7 checkerboard images from various angles using a fixed-position Lenovo Yoga camera and detected internal corners for calibration</p></li>
+						<li><p>Used OpenCV functions such as <code>getOptimalNewCameraMatrix</code> and <code>undistort</code> to correct distorted images and crop the results for improved scaling</p></li>
+						<li><p>Verified undistortion by visual inspection and noted vertical scale correction consistent with lens distortion characteristics</p></li>
+						<li><p>Computed a re-projection error of 0.0421 pixels, indicating excellent calibration accuracy based on industry standards (&lt; 0.1 threshold)</p></li>
+						<li><p>Extracted and documented camera matrix, distortion coefficients, and pose vectors for future use in 3D reconstruction or stereo vision</p></li>
 					</ul>
 				</article>
 

@@ -3224,10 +3224,11 @@ input, select, textarea {
 
 /* Navigation bar */
 
-	#main > .section-nav {
-		margin: 0;
-		padding: 0;
+	#main > nav.section-nav {
+		margin-top: -6em; /* Or -8em to cancel exactly */
+		margin-bottom: 2em;
 	}
+
 	
 	.section-nav {
 		margin: 0;
