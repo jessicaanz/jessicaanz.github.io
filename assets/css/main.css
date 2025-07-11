@@ -3258,15 +3258,20 @@ input, select, textarea {
 		text-decoration: none;
 		font-weight: bold;
 		color: #787878;
-		border-bottom: 2px solid transparent;
-		transition: border-color 0.3s, color 0.3s;
+		border: 2px solid #787878;       /* Outline the button */
+		padding: 0.4em 1em;              /* Space inside the button */
+		border-radius: 1.5em;            /* Rounded corners for pill shape */
+		transition: all 0.3s ease;
+		display: inline-block;
 	}
 
 	.section-nav ul li a:hover {
-		color: #49bf9d;
+		color: #ffffff;
+		background-color: #49bf9d;       /* Fill color on hover */
 		border-color: #49bf9d;
 	}
 
+
 	html {
-		scroll-padding-top: 3em; /* Match your nav bar height */
+		scroll-padding-top: 3em;
 	}
