@@ -3229,7 +3229,11 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	
+	#main > section:first-of-type {
+		margin-top: 0;
+		padding-top: 1em; /* or adjust to your liking */
+	}
+
 	.section-nav {
 		margin: 0;
 		text-align: center;
