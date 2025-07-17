@@ -3268,8 +3268,7 @@ input, select, textarea {
 	}
 
 	.section-nav ul li a:hover {
-		color: #ffffff;
-		background-color: #49bf9d;       /* Fill color on hover */
+		color: #49bf9d;
 		border-color: #49bf9d;
 	}
 
