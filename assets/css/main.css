@@ -3250,14 +3250,17 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-image: url("../../images/navbar.jpg"); /* replace with your image path */
-		background-size: cover;   /* make sure the image covers the whole navbar */
-		background-position: center; /* center the image */
-		background-repeat: no-repeat; /* avoid tiling */
+		
+		background-image: url("images/overlay.png"), url("../../images/navbar.jpg");
+		background-size: auto, cover;         /* overlay = auto, bg = cover */
+		background-position: top left, center; /* overlay = top-left, bg = center */
+		background-repeat: repeat, no-repeat; /* overlay repeats, bg doesn't */
+
 		padding: 0.5em 0;
 		margin: 0;
 		text-align: center;
 	}
+
 
 	.section-nav ul {
 		list-style: none;
