@@ -3226,7 +3226,7 @@ input, select, textarea {
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
-	color: #f0f0f0;
+	color: #c0c0c0;
 	}
 
 /* Navigation bar */
@@ -3266,8 +3266,8 @@ input, select, textarea {
 	.section-nav ul li a {
 		text-decoration: none;
 		font-weight: bold;
-		color: #f0f0f0;
-		border: 2px solid #f0f0f0;
+		color: #c0c0c0;
+		border: 2px solid #c0c0c0;
 		padding: 0.4em 1em;
 		border-radius: 1.5em;
 		transition: all 0.3s ease;
