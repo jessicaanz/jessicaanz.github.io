@@ -3222,11 +3222,11 @@ input, select, textarea {
 	}
 
 	.skill-list li {
-	background-color: #1a5170;
+	background-color: #47738C;
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
-	color: #ffffff;
+	color: #f0f0f0;
 	}
 
 /* Navigation bar */
@@ -3245,7 +3245,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-color: #1a5170;
+		background-color: #47738C;
 		padding: 0.5em 0;
 		margin: 0;
 		text-align: center;
@@ -3266,8 +3266,8 @@ input, select, textarea {
 	.section-nav ul li a {
 		text-decoration: none;
 		font-weight: bold;
-		color: #ffffff;
-		border: 2px solid #ffffff;
+		color: #f0f0f0;
+		border: 2px solid #f0f0f0;
 		padding: 0.4em 1em;
 		border-radius: 1.5em;
 		transition: all 0.3s ease;
