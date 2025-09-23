@@ -3222,7 +3222,7 @@ input, select, textarea {
 	}
 
 	.skill-list li {
-	background-color: #47738C;
+	background-color: #BEE6E1;
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
@@ -3245,7 +3245,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-color: #47738C;
+		background-color: #BEE6E1;
 		padding: 0.5em 0;
 		margin: 0;
 		text-align: center;
