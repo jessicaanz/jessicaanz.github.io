@@ -3226,7 +3226,7 @@ input, select, textarea {
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
-	color: #c0c0c0;
+	color: #676767;
 	}
 
 /* Navigation bar */
@@ -3245,7 +3245,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-color: #BEE6E1;
+		background-color: #47738C;
 		padding: 0.5em 0;
 		margin: 0;
 		text-align: center;
@@ -3266,8 +3266,9 @@ input, select, textarea {
 	.section-nav ul li a {
 		text-decoration: none;
 		font-weight: bold;
-		color: #c0c0c0;
-		border: 2px solid #c0c0c0;
+		color: #676767;
+		border: 2px solid #676767;
+		background-color: #47738C;
 		padding: 0.4em 1em;
 		border-radius: 1.5em;
 		transition: all 0.3s ease;
