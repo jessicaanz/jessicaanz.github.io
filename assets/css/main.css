@@ -3245,7 +3245,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-image: url("../../images/bg.jpg"); /* replace with your image path */
+		background-image: url("../../images/navbar.jpg"); /* replace with your image path */
 		background-size: cover;   /* make sure the image covers the whole navbar */
 		background-position: center; /* center the image */
 		background-repeat: no-repeat; /* avoid tiling */
