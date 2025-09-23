@@ -2422,7 +2422,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #a6c2d2;
+		background-color: #a6c6ba;
 		border-radius: 0.35em;
 		border: solid 2px #676767;
 		color: #676767 !important;
@@ -3210,7 +3210,7 @@ input, select, textarea {
 	}
 
 	.skill-list li {
-	background-color: #a6c2d2;
+	background-color: #a6c6ba;
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
