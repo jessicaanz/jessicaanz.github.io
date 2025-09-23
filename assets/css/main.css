@@ -2620,6 +2620,7 @@ input, select, textarea {
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+			border: 2px solid #ffffff;
 		}
 
 /* Footer */
@@ -3221,10 +3222,11 @@ input, select, textarea {
 	}
 
 	.skill-list li {
-	background-color: #7facc6;
+	background-color: #1a5170;
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
+	color: #ffffff;
 	}
 
 /* Navigation bar */
@@ -3243,7 +3245,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-color: #7facc6;
+		background-color: #1a5170;
 		padding: 0.5em 0;
 		margin: 0;
 		text-align: center;
@@ -3264,8 +3266,8 @@ input, select, textarea {
 	.section-nav ul li a {
 		text-decoration: none;
 		font-weight: bold;
-		color: #676767;
-		border: 2px solid #676767;
+		color: #ffffff;
+		border: 2px solid #ffffff;
 		padding: 0.4em 1em;
 		border-radius: 1.5em;
 		transition: all 0.3s ease;
