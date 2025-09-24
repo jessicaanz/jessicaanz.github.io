@@ -2422,7 +2422,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #abd3ed;
+		background-color: #d5e9f6;
 		border-radius: 0.35em;
 		border: solid 2px #676767;
 		color: #676767 !important;
@@ -3227,7 +3227,7 @@ input, select, textarea {
 	}
 
 	.skill-list li {
-	background-color: #abd3ed;
+	background-color: #d5e9f6;
 	padding: 0.4em 0.75em;
 	border-radius: 20px;
 	font-size: 0.95em;
@@ -3250,7 +3250,7 @@ input, select, textarea {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		
+
 		background-image: url("images/overlay.png"), url("../../images/navbar.jpg");
 		background-size: auto, cover;         /* overlay = auto, bg = cover */
 		background-position: top left, center; /* overlay = top-left, bg = center */
@@ -3277,7 +3277,7 @@ input, select, textarea {
 		font-weight: bold;
 		color: #676767;
 		/* border: 2px solid #676767; */
-		background-color: #abd3ed;
+		background-color: #d5e9f6;
 		padding: 0.4em 1em;
 		border-radius: 0.35em;
 		transition: all 0.3s ease;
