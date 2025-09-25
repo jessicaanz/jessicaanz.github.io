@@ -2423,7 +2423,6 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: #d5e9f6;
-		border-radius: 1.25em;
 		border: solid 1px #676767;
 		color: #676767 !important;
 		cursor: pointer;
@@ -2440,14 +2439,14 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 	.button::after {
-	content: "➔";              /* arrow symbol */
-	margin-left: 0.5em;         /* space between text and arrow */
-	font-size: 0.9em;           /* slightly smaller than text */
-	transition: transform 0.2s ease-in-out;
+		content: "➔";              /* arrow symbol */
+		margin-left: 0.5em;         /* space between text and arrow */
+		font-size: 0.9em;           /* slightly smaller than text */
+		transition: transform 0.2s ease-in-out;
 	}
 
 	.button:hover::after {
-	transform: translateX(3px); /* arrow slides right on hover */
+		transform: translateX(3px); /* arrow slides right on hover */
 	}
 
 
@@ -3300,6 +3299,16 @@ input, select, textarea {
 		border-color: #28ae9b;
 	}
 
+	.section-nav ul li a::after {
+		content: "➔";               /* arrow symbol */
+		margin-left: 0.4em;          /* space between text and arrow */
+		font-size: 0.9em;            /* slightly smaller than text */
+		transition: transform 0.2s ease-in-out;
+	}
+
+	.section-nav ul li a:hover::after {
+		transform: translateX(3px);  /* subtle slide right on hover */
+	}
 
 	html {
 		scroll-padding-top: 3em;
