@@ -2432,13 +2432,24 @@ input, select, textarea {
 		justify-content: center;       /* horizontal centering */
 		font-weight: 400;
 		font-size: 1em;
-		padding: 0.5em 1.2em;          /* tighter spacing */
+		padding: 0.25em 1em;          /* tighter spacing */
 		min-width: 6em;                /* slightly narrower */
 		border-radius: 9999px;         /* fully rounded pill shape */
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
 	}
+	.button::after {
+	content: "➔";              /* arrow symbol */
+	margin-left: 0.5em;         /* space between text and arrow */
+	font-size: 0.9em;           /* slightly smaller than text */
+	transition: transform 0.2s ease-in-out;
+	}
+
+	.button:hover::after {
+	transform: translateX(3px); /* arrow slides right on hover */
+	}
+
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -3277,10 +3288,9 @@ input, select, textarea {
 		text-decoration: none;
 		font-weight: bold;
 		color: #676767;
-		/* border: 2px solid #676767; */
 		background-color: #d5e9f6;
 		padding: 0.4em 1em;
-		border-radius: 0.35em;
+		border-radius: 9999px;
 		transition: all 0.3s ease;
 		display: inline-block;
 	}
