@@ -2564,11 +2564,11 @@ input, select, textarea {
 
 		/* Reduce gap for work items that have a button */
 		.work-item:has(.button) ul.actions {
-			margin-top: 0.25em;  /* tighter spacing before the button */
+			margin-top: 0.5em;  /* tighter spacing before the button */
 		}
 
 		.work-item:has(.button) ul {
-			margin-bottom: 0.25em; /* tighter spacing after bullet list */
+			margin-bottom: 0.5em; /* tighter spacing after bullet list */
 		}
 
 
