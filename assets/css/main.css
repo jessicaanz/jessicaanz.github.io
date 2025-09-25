@@ -3301,7 +3301,8 @@ input, select, textarea {
 		padding: 0.4em 1em;
 		border-radius: 9999px;
 		transition: all 0.3s ease;
-		display: inline-block;
+		display: inline-flex;       /* change from inline-block to inline-flex */
+		align-items: center;        /* vertically center text and arrow */
 	}
 
 	.section-nav ul li a:hover {
@@ -3310,14 +3311,15 @@ input, select, textarea {
 	}
 
 	.section-nav ul li a::after {
-		content: "➔";               /* arrow symbol */
-		margin-left: 0.4em;          /* space between text and arrow */
-		font-size: 0.9em;            /* slightly smaller than text */
+		content: "➔";
+		margin-left: 0.4em;
+		font-size: 0.9em;
+		display: inline-block;      /* needed for transform to work */
 		transition: transform 0.2s ease-in-out;
 	}
 
 	.section-nav ul li a:hover::after {
-		transform: translateX(3px);  /* subtle slide right on hover */
+		transform: translateX(3px);
 	}
 
 	html {
